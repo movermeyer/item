@@ -6,7 +6,8 @@ ROOT = os.path.dirname(os.path.realpath(__file__))
 setup(
     name = 'item',
     version = '0.0.2',
-    description = '',
+    description = 'API to describe schema of data to extract them from HTML',
+    url = 'https://github.com/lorien/item',
     long_description = open(os.path.join(ROOT, 'README.rst')).read(),
     author = 'Gregory Petukhov',
     author_email = 'lorien@lorien.name',
