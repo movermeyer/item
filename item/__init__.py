@@ -30,6 +30,8 @@ from item.item import Item  # noqa
 from item.error import ItemRuntimeError
 from item.field import *  # noqa
 
+__version__ = '0.0.1'
+
 
 def func_field(*args, **kwargs):
     if not kwargs and len(args) == 1 \
