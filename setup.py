@@ -2,6 +2,7 @@ from setuptools import setup
 import os.path
 
 ROOT = os.path.dirname(os.path.realpath(__file__))
+test_reqs = open('requirements_dev.txt' ,'r').read().splitlines()
 
 setup(
     name = 'item',
@@ -12,6 +13,8 @@ setup(
     author = 'Gregory Petukhov',
     author_email = 'lorien@lorien.name',
     install_requires = ['selection', 'tools'],
+    tests_require = test_reqs,
+    test_suite = "test",
     packages = ['item', 'item.script', 'script', 'test'],
     license = "MIT",
     classifiers = (
