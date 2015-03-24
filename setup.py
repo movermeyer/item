@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 import os.path
 
 ROOT = os.path.dirname(os.path.realpath(__file__))
@@ -12,7 +12,7 @@ setup(
     author = 'Gregory Petukhov',
     author_email = 'lorien@lorien.name',
     install_requires = ['selection', 'tools'],
-    packages = ['item', 'script', 'test'],
+    packages = ['item', 'item.script', 'script', 'test'],
     license = "MIT",
     classifiers = (
         'Programming Language :: Python',
