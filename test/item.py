@@ -8,7 +8,7 @@ from item.error import ItemRuntimeError
 from item.item import Item
 from item import func_field
 from item.field import IntegerField, StringField, DateTimeField, FuncField
-from tools.etree import parse_html
+from weblib.etree import parse_html
 from selection import XpathSelector
 
 XML = b"""<?xml version='1.0' encoding='utf-8'?>

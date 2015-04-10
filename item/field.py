@@ -5,8 +5,8 @@ try:
     from cdecimal import Decimal
 except ImportError:
     from decimal import Decimal
-from tools.etree import clean_html
-from tools.text import find_number, drop_space
+from weblib.etree import clean_html
+from weblib.text import find_number, drop_space
 
 from item.decorator import default, empty, cached, bind_item
 from item.const import NULL

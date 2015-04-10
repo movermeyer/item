@@ -12,7 +12,7 @@ setup(
     long_description = open(os.path.join(ROOT, 'README.rst')).read(),
     author = 'Gregory Petukhov',
     author_email = 'lorien@lorien.name',
-    install_requires = ['selection', 'tools'],
+    install_requires = ['selection', 'weblib'],
     tests_require = test_reqs,
     test_suite = "test",
     packages = ['item', 'item.script', 'script', 'test'],
