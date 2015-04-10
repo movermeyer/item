@@ -6,7 +6,7 @@ test_reqs = open('requirements_dev.txt' ,'r').read().splitlines()
 
 setup(
     name = 'item',
-    version = '0.0.2',
+    version = '0.0.3',
     description = 'API to describe schema of data to extract them from HTML',
     url = 'https://github.com/lorien/item',
     long_description = open(os.path.join(ROOT, 'README.rst')).read(),

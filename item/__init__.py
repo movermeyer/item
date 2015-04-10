@@ -30,7 +30,7 @@ from item.item import Item  # noqa
 from item.error import ItemRuntimeError
 from item.field import *  # noqa
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 
 def func_field(*args, **kwargs):
