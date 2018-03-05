@@ -8,10 +8,10 @@ item
 .. image:: https://coveralls.io/repos/lorien/item/badge.svg?branch=master
     :target: https://coveralls.io/r/lorien/item?branch=master
 
-.. image:: https://pypip.in/download/item/badge.svg?period=month
+.. image:: https://img.shields.io/pypi/dm/item.svg
     :target: https://pypi.python.org/pypi/item
 
-.. image:: https://pypip.in/version/item/badge.svg
+.. image:: https://img.shields.io/pypi/v/item.svg
     :target: https://pypi.python.org/pypi/item
 
 .. image:: https://landscape.io/github/lorien/item/master/landscape.png
